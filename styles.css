@@ -1,12 +1,117 @@
-.navbar {
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Inter:wght@100..900&family=Sedan+SC&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+/*MEDIA*/
+@media (max-width: 575.5px) {
+    .navbar {
+        padding-bottom: 5vh;
+    }
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -13.5vw;
+        padding-left: 0;
+        padding-top: 4vh;
+    }
+}
+
+@media (min-width: 800px) {
+    #intro {
+        margin-bottom: 25vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    #intro {
+        margin-bottom: 30vh;
+    }
+}
+
+@media (min-width: 1400px) {
+    #intro {
+        margin-bottom: 35vh;
+    }
+}
+
+
+body {
+    background-color: #EFF;
+    color: #444;
+}
+
+nav {
     border: 1px solid black;
+    background-color: #EFF;
+    opacity: 80%;
 }
 
 #signature {
     width: 27vw;
+    max-width: 200px;
+    padding-left: 2vw;
 }
 
-.nav-divider {
+.nav-item {
+    font-size: clamp(14px, 2.2vw, 18px);
+    font-weight: 600;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    padding-left: .5vw;
+}
+
+#lm-dm-switch {
+    transition: .5s ease-in-out;
+    padding-right: 2vw;
+}
+
+#lm-dm-switch:hover {
+    scale: 1.3;
+}
+
+#lm-dm-switch:active {
+    scale: .9;
+    
+}
+
+.lm-dm-switches {
     #
 }
 
+#intro {
+    text-align: center;
+    font-family: "Crimson Pro", Arial, Helvetica, sans-serif;
+    font-size: 9vw;
+    margin-top: 15vh;
+}
+
+#main-content {
+    position: relative;
+    background-color: #FF7;
+    margin-top: 20vh;
+}
+
+#photo-container {
+    position: absolute;
+    margin-left: 35vw;
+    top: -15vw;
+    width: 30vw;
+    height: 30vw;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#photo {
+    width: 40vw;
+    height: 40vw;
+}
+
+.spreader {
+     padding-top: 20vw;
+}
+
+#about {
+    #
+}
+
+h3 {
+
+}

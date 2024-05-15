@@ -14,40 +14,53 @@
         <link href="/styles.css" rel="stylesheet">
 
         <!--JAVASCRIPT-->
-        <link href="/scripts.js" rel="script">
+        <script src="/scripts.js"></script>   
 
     </head>
 
     <body>
-    <nav class="navbar navbar-expand-sm fixed-top">
-        <div class="container-fluid navbar-brand">
-            <img id="signature" src="/imgs/signature.png">
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav mb-2 me-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-divider">•</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link nav-divider">•</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Contact↴</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" id="lm-dm-switch" onclick="lightDarkSwitch()" href="#">☀️</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <nav class="navbar navbar-expand-sm fixed-top" data-bs-theme="light">
+            <div class="container-fluid navbar-brand">
+                <img id="signature" src="/imgs/signature.png">
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mb-2 me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active lm-dm-switches" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-divider">•</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-divider">•</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">CONTACT↴</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link active" id="lm-dm-switch" onclick="lightDarkSwitch()">☀️</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
+        <h1 id="intro">Hi, I'm Trevin...</h1>
 
-    
+        <div id="main-content">
+            
+        <div class="spreader"></div>
+
+        <div id="about">
+            <h3>Who Am I?</h3>
+        </div>
+
+        <div id="photo-container">
+            <img src="/imgs/hawtmama.jpg" id="photo">
+        </div>
+
+        </div>
     </body>
 </html>
