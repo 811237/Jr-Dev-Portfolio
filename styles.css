@@ -137,6 +137,14 @@ nav {
 }
 
 #about {
+    #
+}
+
+#why {
+    #
+}
+
+.main {
     margin: 1.5vw;
     overflow: hidden;
 }
@@ -157,12 +165,17 @@ p {
     position: relative;
     overflow: hidden;
     width: 100%;
-}
-
-#slider-about {
     height: 5em;
 }
 
-#slider-about > p {
+.slider p {
     width: 60%;
+}
+
+.right {
+    float: right;
+}
+
+.right p {
+    #
 }
