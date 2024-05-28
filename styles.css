@@ -182,6 +182,10 @@ p {
     text-align: center!important;
 }
 
+.middle {
+    margin-left: 29vw;
+}
+
 #certs {
     margin-top: 11vh;
 }
