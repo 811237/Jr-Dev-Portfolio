@@ -162,8 +162,14 @@ p {
     margin-top: 1.5vh;
 }
 
+.left {
+    float: left;
+    margin-left: 2vw;
+}
+
 .right {
-    #
+    float: right;
+    margin-right: 2vw;
 }
 
 .separator {
@@ -182,14 +188,30 @@ p {
 
 #certs-holder {
     margin: 2vh 3.33vw;
+    padding: 1vw;
     border: 2px solid #223;
     background-color: #779;
 }
 
 .small-cert {
     width: 30vw;
+    max-width: 190px;
 }
 
 .cert {
     width: 24vw;
+    max-width: 150px;
+}
+
+.project {
+    width: 45vw;
+    padding: 2vw;
+}
+
+.proj-desc {
+    padding-top: 1.5vh;
+}
+
+.proj-desc p {
+    width: 30vw;
 }
